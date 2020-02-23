@@ -1,8 +1,18 @@
 {
-  "name": "gatsby-datocms-demo",
-  "description": "Gatsby DatoCMS creative portfolio demo",
+  "name": "carbonara-f-show",
+  "description": "Gatsby DatoCMS creative portfolio",
   "version": "1.0.0",
-  "author": "Stefano Verna <s.verna@datocms.com>",
+  "author": "Aldric Libonis",
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
+  },
+  "keywords": [
+    "gatsby"
+  ],
   "dependencies": {
     "dotenv": "^8.1.0",
     "gatsby": "^2.18.8",
@@ -19,16 +29,6 @@
     "react-masonry-component": "^6.2.1",
     "react-slick": "^0.25.2",
     "slick-carousel": "^1.8.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
   },
   "devDependencies": {
     "prettier": "^1.17.0"
